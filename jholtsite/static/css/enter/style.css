@@ -1,0 +1,102 @@
+body {
+  background-color: RGB(175, 17, 28);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.enterBox{
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  border: 1px solid white;
+  text-align: center;
+  margin: auto;
+}
+
+.enterBox:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+
+.enterBox:hover p{
+  color: black;
+}
+
+.enterBox p {
+  font-size: 14px;
+  color: white;
+  margin: 0;
+}
+
+
+.inner{
+  display: inline;
+  position: relative;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+.inner h1, h3 {
+  color: white;
+  text-align: center;
+}
+.inner h1 {
+  font-size: 110px;
+}
+
+.outter {
+  margin-top: 400px;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px)  {
+  /* .outter {
+    margin-top: 20%;
+  } */
+
+  .inner h1 {
+    font-size: 24px;
+  }
+
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .outter {
+      margin-top: 50%;
+    }
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .outter {
+      margin-top: 40px;
+    }
+}
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .outter {
+      margin-top: 40px;
+    }
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .outter {
+      margin-top: 40px;
+    }
+}

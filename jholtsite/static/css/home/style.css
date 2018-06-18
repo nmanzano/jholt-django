@@ -1,0 +1,68 @@
+#aboutMeText{
+  margin-top: 30%;
+}
+
+.authorImage{
+  width: 40%;
+}
+
+.bioContainer{
+  margin-top: 10%;
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#headerName{
+  font-size: 45px;
+}
+
+.homeText{
+  margin-top: 50px;
+}
+
+#home_skip_to_end{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+#subtextSkipToEnd{
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .subtextSkipToEnd {
+        width: 50%;
+        float: left;
+        margin-top: 10%;
+        padding-left: 54px;
+    }
+    .authorImage{
+      margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+  .authorImage{
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .subtextSkipToEnd {
+      margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+  .authorImage{
+    width: 100%;
+    margin-left: 15%;
+  }
+  .subtextSkipToEnd {
+      margin-top: 20px;
+  }
+}

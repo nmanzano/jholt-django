@@ -1,0 +1,25 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+
+<!-- <div class="homeText"> -->
+  <div class="row homeText">
+      <div class="col-md-12 col-lg-12 text-center">
+        <h2>JEREMY HOLT</h2>
+      </div>
+      <div class="col-md-12 col-lg-12 text-center">
+        <h4 style="font-style: italic">Author of Skip To The End</h4>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <img id="home_skip_to_end" src="{% static "images/skip_to_end_bookstore.jpg" %}" alt="skip to the end"/>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-md-12 text-center">
+        <p id="subtextSkipToEnd">“Music is time travel. and for an ex-rockstar, sometimes revisiting the past is the only way to move forward.”</p>
+      </div>
+  </div>
+
+{% endblock %}

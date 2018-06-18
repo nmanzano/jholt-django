@@ -1,0 +1,16 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="container">
+  <div class="row bioContainer">
+    <picture class="authorImage">
+      <source srcset="{% static "images/AuthorPhoto.jpg" %}" type="image/svg+xml">
+      <img src="{% static "images/AuthorPhoto.jpg" %}" class="img-fluid img-thumbnail" alt="...">
+    </picture>
+    <div class="subtextSkipToEnd">
+      <p  id="subtextSkipToEnd" class="text-center">Jeremy Holt is a Vermont-based writer whose most recent works include Skinned (Insight Comics), Southern Dog (Action Lab) and Pulp (Comixology), which IGN has called, "...one of the best one-shot comics of the year." When he's not writing, this Mac Genius is fixing computers, and getting confused for his identical triplet brothers. Follow him on Twitter @Jeremy_Holt.</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
