@@ -1,13 +1,14 @@
 body {
-  background-color: RGB(175, 17, 28);
+  background-color: RGB(175, 17, 28, 3);
   font-family: 'Roboto Condensed', sans-serif;
+  background-image: url("../../images/black-felt.png")
 }
 
 .enterBox{
   width: 100px;
   padding-top: 10px;
   padding-bottom: 8px;
-  border: 1px solid white;
+  border: 1px solid black;
   text-align: center;
   margin: auto;
 }
